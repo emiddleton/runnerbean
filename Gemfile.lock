@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    beanstalk-client (1.1.1)
+    json_pure (2.0.2)
+    stalker (0.9.0)
+      beanstalk-client
+      json_pure
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  stalker
+
+BUNDLED WITH
+   1.13.6
