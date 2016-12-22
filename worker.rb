@@ -10,7 +10,8 @@ OptionParser.new do |parser|
 end.parse!
 puts options.inspect
 job options[:queue] do |args|
-  `#{args[:command]}`
+  puts "runner #{args[:command]}"
+  puts `#{args[:command]}`
 end
 
 Stalker.work
